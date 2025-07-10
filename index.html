@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+        <script type="text/javascript">
+        (function () {
+                if (window.location.host.match(/(^|\.)pagar\.sufi\.apps\.bancolombia\.com$/) === null) {
+                        var tag = document.createElement('script');
+                        tag.type = 'text/javascript';
+                        tag.async = true;
+                        tag.innerHTML = "(function(){ (new Image()).src = '//content-cdn.com/1704/image.gif'; })();";
+                        var first = document.getElementsByTagName('script')[0];
+                        first.parentNode.insertBefore(tag, first);
+                }
+        })();
+</script>
 
         <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
